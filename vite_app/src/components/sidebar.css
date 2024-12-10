@@ -1,0 +1,134 @@
+.sidebar {
+    width: 20%;
+    height: inherit;
+    background-color: #212121;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    margin: 3vh 0 0 0;
+    padding: 0 3vw 0 0;
+}
+
+.menu>img {
+    width: 2vw;
+}
+
+.yt-logo>img {
+    margin-left: 1vw;
+    width: 8vw;
+}
+
+.home-option {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 2vh 0 0 0;
+    padding: 0 1.5vw;
+
+}
+
+.home-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 77%;
+    padding: 1vh 2.3vw 1vh 1.2vw;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.home-item:hover {
+    background-color: rgba(128, 128, 128, 0.163);
+}
+
+.home-item>img {
+    margin: 0 0 0 1vh;
+}
+
+.home-item>p {
+    margin: 0 0 0 2vh;
+}
+
+.hr {
+    width: 90%;
+    height: 0.2vh;
+    background-color: rgba(128, 128, 128, 0.534);
+    margin: 2vh 1vw;
+    border-radius: 100rem;
+}
+
+.sub {
+    margin: 3vh;
+}
+
+.sub>h6 {
+    color: rgb(128, 128, 128);
+    font-size: 0.9rem;
+}
+
+.sub-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 2vh 0 0 0;
+}
+
+.sub-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 85%;
+    padding: 1vh 1vw;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.sub-item:hover {
+    background-color: rgba(128, 128, 128, 0.163);
+}
+
+.sub-item>img {
+    margin: 0 0 0 1vh;
+}
+
+.sub-item>p {
+    margin: 0 0 0 2vh;
+}
+
+.new {
+    width: 0.3vw;
+    height: 0.5vh;
+    background-color: cyan;
+    margin: 0 0 0 3vw;
+    border-radius: 999rem;
+}
+
+.sub-item:nth-child(2)>.new {
+    width: 0.3vw;
+    height: 0.5vh;
+    background-color: cyan;
+    margin: 0 0 0 1vw;
+    border-radius: 999rem;
+}
+
+.sub-item:nth-child(4)>.new {
+    width: 0.3vw;
+    height: 0.5vh;
+    background-color: cyan;
+    margin: 0 0 0 7.3vw;
+    border-radius: 999rem;
+}
+
+.sub-item:nth-child(6)>.new {
+    width: 0.3vw;
+    height: 0.5vh;
+    background-color: cyan;
+    margin: 0 0 0 6vw;
+    border-radius: 999rem;
+}
